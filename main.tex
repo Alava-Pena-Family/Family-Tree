@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{preamble}
+
+\begin{document}
+
+\maketitle
+
+\begin{tikzpicture}
+\genealogytree[
+    template=signpost
+    ]{
+    parent{
+    g[male]{Lucas Alava Peña}
+    c[female]{Dana Alava Peña}
+    % \PenaGutierrezFamily
+    parent{
+    c[male]{Miguel Enrique Peña Gutierrez}
+    c[male]{Cesar Peña Gutierrez}
+    c[female]{Rosa Peña Gutierrez}
+    c[female]{Maria Peña Gutierrez}
+    p[male]{Miguel Enrique Peña Gutierrez}
+    p[female]{Rosa Gutierrez X}
+    g[female]{Raquel Peña Gutierrez}
+    }
+    parent{
+    g[male]{Vicente Alava Pons}
+    c[male]{Angel Alava Pons}
+    p[male]{Angel Alava Gomez}
+    p[female]{Vicenta Pons Ordunia}
+    }
+    }
+   
+}
+\end{tikzpicture}
+\clearpage
+
+\end{document}
